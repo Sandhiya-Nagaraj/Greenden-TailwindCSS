@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="font-serif min-h-screen flex flex-col">
+<body class="font-serif flex flex-col min-h-dvh">
     <nav class="bg-violet-200 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
       <h1 class="text-xl font-bold text-purple-950 p-2">Nova-Greenden</h1>
 
@@ -36,7 +36,7 @@
 
     </nav>
 
-    <main class="grow">
+    <main class="flex-1 pb-20">
       <!-- Header -->
       <section class="flex flex-col justify-center p-5 m-5 text-center">
         <h1 class="text-purple-950 font-bold text-2xl">Our Products</h1>
@@ -46,7 +46,7 @@
 
       <!-- Product -->
 
-      <div class="grid grid-cols-2 md:grid-cols-4 mt-4 ml-4 gap-5 text-center bg-violet-200 p-5">
+      <div class="grid grid-cols-2 md:grid-cols-4 m-5 gap-5 text-center bg-violet-200 p-5">
         <div class="text-purple-950">
           <img src="images/product-img-1.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
             alt="">
@@ -175,10 +175,11 @@
 
     </main>
 
-    <!-- footer -->
-    <footer class="bg-violet-200 p-6 text-purple-950 flex flex-col gap-4 mt-auto">
+      <!-- footer -->
+    <footer class="bg-violet-200 p-6 text-purple-950 gap-4 mt-auto">
+    <div class="max-w-7xl mx-auto px-6 py-6">
       <h1 class="text-2xl font-bold">Nova-Greenden</h1>
-      <p class="text-sm mb-3 max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et placeat odit
+      <p class="text-sm mb-3 mt-2 max-w-xl pb-2 pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et placeat odit
         mollitia fugit
         unde pariatur ullam debitis explicabo ab.</p>
 
@@ -195,8 +196,8 @@
           <i class="fa-brands fa-pinterest"></i>
           <i class="fa-brands fa-x-twitter"></i>
         </div>
-
-      </div>
+      </div>  
+    </div>
     </footer>
 
 </body>
