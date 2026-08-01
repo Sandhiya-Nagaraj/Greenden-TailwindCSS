@@ -1,4 +1,4 @@
-    <!doctype html>
+<!doctype html>
 <html>
 
 <head>
@@ -13,175 +13,192 @@
 </head>
 
 <body>
-<div class="font-serif">
-  <nav class="bg-violet-200 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
-    <h1 class="text-xl font-bold text-purple-950 p-2">Nova-Greenden</h1>
+  <div class="font-serif min-h-screen flex flex-col justify-between">
 
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-      class="size-6 md:hidden">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-    </svg>
+    <nav class="bg-violet-200 p-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+      <h1 class="text-xl font-bold text-purple-950 p-2">Nova-Greenden</h1>
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
 
 
-    <ul class="gap-5 text-purple-900 hidden md:flex">
-      <li>
-        <a href="index.html" class="hover:underline hover:text-purple-950">Home</a>
-      </li>
-      <li>
-        <a href="index.html" class="hover:underline hover:text-purple-950">Product</a>
-      </li>
-      <li>
-        <a href="contactpage.html" class="hover:underline hover:text-purple-950">Contact</a>
-      </li>
-    </ul>
+      <ul class="gap-5 text-purple-900 hidden md:flex">
+        <li>
+          <a href="index.html" class="hover:underline hover:text-purple-950">Home</a>
+        </li>
+        <li>
+          <a href="index.html" class="hover:underline hover:text-purple-950">Product</a>
+        </li>
+        <li>
+          <a href="contactpage.html" class="hover:underline hover:text-purple-950">Contact</a>
+        </li>
+      </ul>
 
-  </nav>
+    </nav>
 
-<!-- Header -->
-    <section class="flex flex-col justify-center p-5 m-5 text-center">
-  <h1 class="text-purple-950 font-bold text-2xl">Our Products</h1>
-  <input type="text" placeholder="Search for a Product..."  class="mt-5 border border-violet-900 text-violet-700 p-2 m-3" style="width: 60; ">
-    </section>
+    <main class="grow">
+      <!-- Header -->
+      <section class="flex flex-col justify-center p-5 m-5 text-center">
+        <h1 class="text-purple-950 font-bold text-2xl">Our Products</h1>
+        <input type="text" placeholder="Search for a Product..."
+          class="mt-5 border border-violet-900 text-violet-700 p-2 m-3" style="width: 60; ">
+      </section>
 
-<!-- Product -->
- 
-    <div class="grid grid-cols-2 md:grid-cols-4 mt-4 ml-4 gap-5 text-center bg-violet-200 p-5">
-      <div class="text-purple-950">
-        <img src="images/product-img-1.png" 
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3" alt="">
-        <h1>Rose Flower-Pot</h1>
-        <p>$30</p>
-        <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
-      </div>
-      <div class="text-purple-950">
-        <img src="images/product-img-2.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+      <!-- Product -->
+
+      <div class="grid grid-cols-2 md:grid-cols-4 mt-4 ml-4 gap-5 text-center bg-violet-200 p-5">
+        <div class="text-purple-950">
+          <img src="images/product-img-1.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
+          <h1>Rose Flower-Pot</h1>
+          <p>$30</p>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
+        </div>
+        <div class="text-purple-950">
+          <img src="images/product-img-2.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Lily Flower-Pot</h1>
           <p>$25</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-3.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-3.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Flower-Pot</h1>
           <p>$20</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-4.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-4.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Lavender Flower-Pot</h1>
           <p>$20</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
 
         <div class="text-purple-950">
-          <img src="images/product-img-5.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-5.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>White Flower-Pot</h1>
           <p>$20</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-6.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-6.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>unique Flower-Pot</h1>
           <p>$30</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-7.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-7.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Lavender Flower-Pot</h1>
           <p>$10</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-8.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-8.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Cute Flower-Pot</h1>
           <p>$20</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
 
         <div class="text-purple-950">
-          <img src="images/product-img-9.jpg"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-9.jpg" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Lavender Flower-Pot</h1>
           <p>$26</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-10.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-10.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Indoor Plant-Pot</h1>
           <p>$20</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-11.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-11.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>Lavender Flower-Pot</h1>
           <p>$30</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
         <div class="text-purple-950">
-          <img src="images/product-img-12.png"
-          class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"  alt="">
+          <img src="images/product-img-12.png" class="inline hover:shadow-xl hover:transform hover:-translate-y-2 mb-3"
+            alt="">
           <h1>unique Flower-Pot</h1>
           <p>$40</p>
-          <button class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
-          Buy Now
-        </button>
+          <button
+            class="text-violet-100  text-xs p-2 m-2 hover:transform hover:scale-110 rounded-sm shadow-lg bg-violet-700 shadow-violet-950/50">
+            Buy Now
+          </button>
         </div>
 
 
-    </div>
+      </div>
+    </main>
 
-<!-- footer -->
-      <section class="bg-violet-200 p-6 text-purple-950 flex flex-col gap-4 mt-10  ">
-         <h1 class="text-2xl font-bold">Nova-Greenden</h1>
-         <p class="text-sm mb-3 max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et placeat odit
-            mollitia fugit
-            unde pariatur ullam debitis explicabo ab.</p>
+    <!-- footer -->
+    <section class="bg-violet-200 p-6 text-purple-950 flex flex-col gap-4 mt-10  ">
+      <h1 class="text-2xl font-bold">Nova-Greenden</h1>
+      <p class="text-sm mb-3 max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et placeat odit
+        mollitia fugit
+        unde pariatur ullam debitis explicabo ab.</p>
 
-         <div
-            class="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-violet-300 pt-4 pb-3 text-center md:text-left">
-            <div>
-               <p class="text-xs text-purple-950 ">Copyright © 2026Nova_Greenday. All Rights Reserved.</p>
-            </div>
-            <div class="flex items-center gap-4 text-lg">
-               <i class="fa-brands fa-facebook"></i>
-               <i class="fa-brands fa-instagram"></i>
-               <i class="fa-brands fa-youtube"></i>
-               <i class="fa-brands fa-tiktok"></i>
-               <i class="fa-brands fa-pinterest"></i>
-               <i class="fa-brands fa-x-twitter"></i>
-            </div>
+      <div
+        class="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-violet-300 pt-4 pb-3 text-center md:text-left">
+        <div>
+          <p class="text-xs text-purple-950 mt-5">Copyright © 2026Nova_Greenday. All Rights Reserved.</p>
+        </div>
+        <div class="flex items-center gap-4 text-lg">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+        </div>
 
-         </div>
-      </section>
+      </div>
+    </section>
 </body>
+
 </html>
